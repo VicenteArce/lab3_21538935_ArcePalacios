@@ -8,15 +8,7 @@ import java.util.*;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        String nombreUsuario;
 
-        Scanner input = new Scanner(System.in);
-
-        final int ADMIN_MENU_EXIT_OPTION = 12;
-        final int COMUN_MENU_EXIT_OPTION = 6;
-
-        int choice2 = 0;
-        var choice = 0;
 
         // CARGANDO SISTEMA
 
@@ -76,6 +68,20 @@ public class Main {
         // Creando sistema
         System_21538935_ArcePalacios s1 = new System_21538935_ArcePalacios("Chatbots Paradigmas", 0, Arrays.asList(cb0,cb0,cb1,cb1));
         s1.systemAddChatbot(cb2);
+
+        menu(s1);
+    }
+
+    public static void menu(System_21538935_ArcePalacios s1){
+        String nombreUsuario;
+
+        Scanner input = new Scanner(System.in);
+
+        final int ADMIN_MENU_EXIT_OPTION = 12;
+        final int COMUN_MENU_EXIT_OPTION = 6;
+
+        int choice2 = 0;
+        var choice = 0;
 
         do {
             printFirstMenu();
@@ -319,7 +325,7 @@ public class Main {
         } while (true);
     }
 
-    private static void printFirstMenu() {
+    public static void printFirstMenu() {
         System.out.println("#-----------Main Menu-----------#\n");
         System.out.print("1) Registrar usuario.\n");
         System.out.print("2) Loguear usuario.\n");
@@ -327,7 +333,7 @@ public class Main {
         System.out.print("\nEnter your choice: ");
     }
 
-    private static void printRegisterMenu() {
+    public static void printRegisterMenu() {
         System.out.println("#-----------Registro-----------#\n");
         System.out.print("1) Registrar Usuario comun.\n");
         System.out.print("2) Registrar Usuario administrador.\n");
@@ -335,7 +341,7 @@ public class Main {
         System.out.print("\nEnter your choice: ");
     }
 
-    private static void printAdminUserMenu() {
+    public static void printAdminUserMenu() {
         System.out.println("#-----------Usuario Administrador-----------#\n");
         System.out.print("1) Crear opcion [option].\n");
         System.out.print("2) Crear flujo [flow].\n");
@@ -352,7 +358,7 @@ public class Main {
         System.out.print("\nEnter your choice: ");
     }
 
-    private static void printComunUserMenu() {
+    public static void printComunUserMenu() {
         System.out.println("#-----------Usuario Comun-----------#\n");
         System.out.print("1) Desloguear.\n");
         System.out.print("2) Interactuar con el sistema [systemTalk].\n");
