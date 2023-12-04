@@ -4,3 +4,5 @@
 
 ## Descripción
 En este repositorio se encuentra mi laboratorio número 3 del ramo impartido por la Universidad de Santiago de Chile "Paragimas de programación" siendo este laboratorio dedicado al paradima de programación orientada a objetos en el lenguaje Java.
+
+## Como ejecutar
