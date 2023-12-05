@@ -3,7 +3,7 @@ plugins {
 }
 
 application {
-    mainClassName = 'CodigoFuente_21538935_ArcePalacios.Main'
+    mainClassName = 'CodigoFuente_21538935_ArcePalacios.Main_21538935_ArcePalacios'
 }
 
 group = 'CodigoFuente_21538935_ArcePalacios'
