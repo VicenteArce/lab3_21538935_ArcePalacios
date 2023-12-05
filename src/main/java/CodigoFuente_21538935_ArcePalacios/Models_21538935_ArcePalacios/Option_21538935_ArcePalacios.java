@@ -1,10 +1,10 @@
 package CodigoFuente_21538935_ArcePalacios.Models_21538935_ArcePalacios;
 
-import CodigoFuente_21538935_ArcePalacios.Interfaces_21538935_ArcePalacios.InterfaceOption_21538935_ArcePalacios;
+import CodigoFuente_21538935_ArcePalacios.Interfaces_21538935_ArcePalacios.IOption_21538935_ArcePalacios;
 
 import java.util.List;
 
-public class Option_21538935_ArcePalacios implements InterfaceOption_21538935_ArcePalacios {
+public class Option_21538935_ArcePalacios implements IOption_21538935_ArcePalacios {
     private int code;
     private String message;
     private int chatbotCodeLink;
@@ -68,6 +68,14 @@ public class Option_21538935_ArcePalacios implements InterfaceOption_21538935_Ar
      */
     public List<String> getKeywords() {
         return keywords;
+    }
+
+    /**
+     * método que setea una lista de keywords en una opción
+     * @param keywords lista de palabras claves
+     */
+    public void setKeywords(List<String> keywords) {
+        this.keywords = keywords;
     }
 
     // ToString

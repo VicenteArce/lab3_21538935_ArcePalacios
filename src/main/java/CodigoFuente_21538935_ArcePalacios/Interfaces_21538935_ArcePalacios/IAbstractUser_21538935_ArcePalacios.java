@@ -1,6 +1,6 @@
 package CodigoFuente_21538935_ArcePalacios.Interfaces_21538935_ArcePalacios;
 
-public interface InterfaceAbstractUser_21538935_ArcePalacios {
+public interface IAbstractUser_21538935_ArcePalacios {
     /**
      * método para obtener el username del usuario
      * @return string

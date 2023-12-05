@@ -2,7 +2,7 @@ package CodigoFuente_21538935_ArcePalacios.Interfaces_21538935_ArcePalacios;
 
 import java.util.List;
 
-public interface InterfaceOption_21538935_ArcePalacios {
+public interface IOption_21538935_ArcePalacios {
     /**
      * método que obtiene un código de una opción
      * @return code

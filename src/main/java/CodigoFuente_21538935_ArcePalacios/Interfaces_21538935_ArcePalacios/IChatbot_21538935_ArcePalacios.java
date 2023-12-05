@@ -4,7 +4,7 @@ import CodigoFuente_21538935_ArcePalacios.Models_21538935_ArcePalacios.Flow_2153
 
 import java.util.List;
 
-public interface InterfaceChatbot_21538935_ArcePalacios {
+public interface IChatbot_21538935_ArcePalacios {
 
     /**
      * método que obtiene el chatbotId de un chatbot

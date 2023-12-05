@@ -1,8 +1,10 @@
 package CodigoFuente_21538935_ArcePalacios.Models_21538935_ArcePalacios;
 
+import CodigoFuente_21538935_ArcePalacios.Interfaces_21538935_ArcePalacios.ISystem_21538935_ArcePalacios;
+
 import java.util.*;
 
-public class System_21538935_ArcePalacios {
+public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalacios {
     private Date systemDateCreation;
     private String name;
     private int initialChatbotCodeLink;
@@ -34,35 +36,11 @@ public class System_21538935_ArcePalacios {
 
     // Getters
     /**
-     * método que obtiene la fecha en la que se creo un sistema
-     * @return systemDateCreation
-     */
-    public Date getSystemDateCreation(){
-        return systemDateCreation;
-    }
-
-    /**
      * método que obtiene el nombre de un sistema
      * @return name
      */
     public String getName() {
         return name;
-    }
-
-    /**
-     * método que obtiene el initialChatbotCodeLink de un sistema
-     * @return initialChatbotCodeLink
-     */
-    public int getInitialChatbotCodeLink() {
-        return initialChatbotCodeLink;
-    }
-
-    /**
-     * método que obtiene la lista de chatbots de un sistema
-     * @return chatbots
-     */
-    public List<Chatbot_21538935_ArcePalacios> getChatbots() {
-        return chatbots;
     }
 
     /**
@@ -82,30 +60,12 @@ public class System_21538935_ArcePalacios {
     }
 
     /**
-     * método que obtiene el código actual de chatbot en el que esta el sistema
-     * @return actualChatbotCodeLink
-     */
-    public int getActualChatbotCodeLink() {
-        return actualChatbotCodeLink;
-    }
-
-
-    /**
      * método que obtiene el código actual de flujo en el que esta el sistema
      * @return actualFlowCodeLink
      */
     public int getActualFlowCodeLink() {
         return actualFlowCodeLink;
     }
-
-    /**
-     * método que obtiene el placeHolderSimulate de un sistema (indicador de si una simulación se ha iniciado)
-     * @return placeHolderSimulate
-     */
-    public int getPlaceHolderSimulate() {
-        return placeHolderSimulate;
-    }
-
 
 
     //Modificadores
@@ -449,7 +409,7 @@ public class System_21538935_ArcePalacios {
     public String toString() {
         return String.format(
                 "%n[" +
-                " Fecha de Creación = '%s',%n" +
+                "Fecha de Creación = '%s',%n" +
                 " nombre = %s,%n" +
                 " initialChatbotCodeLink = %s,%n" +
                 " chatbots = %s,%n" +
@@ -458,7 +418,7 @@ public class System_21538935_ArcePalacios {
                 " actualChatbotCodeLink = %s,%n" +
                 " actualFlowCodeLink = %s,%n" +
                 " placeHolderSimulate = %s,%n" +
-                " ]%n",
+                "]%n",
                 systemDateCreation,
                 name,
                 initialChatbotCodeLink,

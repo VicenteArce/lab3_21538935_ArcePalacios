@@ -4,7 +4,7 @@ import CodigoFuente_21538935_ArcePalacios.Models_21538935_ArcePalacios.Option_21
 
 import java.util.List;
 
-public interface IntefaceFlow_21538935_ArcePalacios {
+public interface IFlow_21538935_ArcePalacios {
     /**
      * método que obtiene el id de un flujo
      * @return id

@@ -1,11 +1,11 @@
 package CodigoFuente_21538935_ArcePalacios.Models_21538935_ArcePalacios;
 
-import CodigoFuente_21538935_ArcePalacios.Interfaces_21538935_ArcePalacios.InterfaceChatbot_21538935_ArcePalacios;
+import CodigoFuente_21538935_ArcePalacios.Interfaces_21538935_ArcePalacios.IChatbot_21538935_ArcePalacios;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Chatbot_21538935_ArcePalacios implements InterfaceChatbot_21538935_ArcePalacios {
+public class Chatbot_21538935_ArcePalacios implements IChatbot_21538935_ArcePalacios {
 
     private int chatbotId;
     private String name;

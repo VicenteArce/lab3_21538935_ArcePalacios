@@ -1,11 +1,11 @@
 package CodigoFuente_21538935_ArcePalacios.Models_21538935_ArcePalacios;
 
-import CodigoFuente_21538935_ArcePalacios.Interfaces_21538935_ArcePalacios.IntefaceFlow_21538935_ArcePalacios;
+import CodigoFuente_21538935_ArcePalacios.Interfaces_21538935_ArcePalacios.IFlow_21538935_ArcePalacios;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Flow_21538935_ArcePalacios implements IntefaceFlow_21538935_ArcePalacios {
+public class Flow_21538935_ArcePalacios implements IFlow_21538935_ArcePalacios {
 
     private int id;
     private String nameMsg;
