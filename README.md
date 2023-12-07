@@ -13,3 +13,5 @@ git clone https://github.com/VicenteArce/lab3_21538935_ArcePalacios
 Luego abra una terminal/consola en el directorio principal del proyecto y ejecute el siguiente comando
 * gradlew run (en GNU/Linux)
 * gradlew.bat run (en Windows)
+
+## Prerequisitos
