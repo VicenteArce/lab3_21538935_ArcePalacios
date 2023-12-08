@@ -6,10 +6,12 @@
 En este repositorio se encuentra mi laboratorio número 3 del ramo impartido por la Universidad de Santiago de Chile "Paragimas de programación" siendo este laboratorio dedicado al paradima de programación orientada a objetos en el lenguaje Java.
 
 ## Como ejecutar
-Primeramente clone el presente repositorio, esto puede hacerlo copiando y pegando el siguiente comando en su terminal/CMD
+Primeramente clone el presente repositorio, esto puede hacerlo copiando y pegando el siguiente comando en su terminal/CMD:
 ```sh
 git clone https://github.com/VicenteArce/lab3_21538935_ArcePalacios
 ```
-Luego abra una terminal/consola en el directorio principal del proyecto y ejecute el siguiente comando
+Luego abra una terminal/consola en el directorio principal del proyecto y ejecute uno de los siguientes comandos dependiendo de su sistema operativo:
 * gradlew run (en GNU/Linux)
 * gradlew.bat run (en Windows)
+
+## Prerequisitos
