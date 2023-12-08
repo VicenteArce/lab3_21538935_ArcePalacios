@@ -34,7 +34,6 @@ public class Main_21538935_ArcePalacios {
         Option_21538935_ArcePalacios op17 = new Option_21538935_ArcePalacios(2, "2) Postgrado",2,1,Arrays.asList("Doctorado", "Magister", "Postgrado"));
         Option_21538935_ArcePalacios op18 = new Option_21538935_ArcePalacios(3, "3) Volver",0,1,Arrays.asList("Regresar", "Salir","Volver"));
 
-
         // Flujo 1 chatbot 0
         Flow_21538935_ArcePalacios f11 = new Flow_21538935_ArcePalacios(1, "Flujo Principal Chatbot 1\nBienvenido\n¿Que te gustaria hacer?", Arrays.asList(op1,op2,op2,op2,op2,op1));
         f11.flowAddOption(op1);
@@ -77,6 +76,7 @@ public class Main_21538935_ArcePalacios {
                 int index = input.nextInt();
                 input.nextLine();
                 if(index == 0){
+                    System.exit(0);
                     break;
                 }else {
                     s1 = sistemasMain.get(index - 1);
@@ -89,7 +89,6 @@ public class Main_21538935_ArcePalacios {
         }
 
     }
-
 
     /**
      * método que maneja la lógica para la interacción con un sistema, permite la utilización de todos los requisitos funcionales
@@ -521,7 +520,6 @@ public class Main_21538935_ArcePalacios {
         } while (choice != MENU_EXIT_OPTION);
     }
 
-
     /**
      * método que printea los nombres de los sistemas de una lista de sistemaas
      * @param sistemasMain lista de sistemas
@@ -540,7 +538,7 @@ public class Main_21538935_ArcePalacios {
      */
     public static void printChatbotsCreados(List<Chatbot_21538935_ArcePalacios> chatbotsMain){
         int i = 0;
-        System.out.println("//// Chatbots que has creado ////");
+        System.out.println("/--- Chatbots que has creado ---/");
         if(chatbotsMain.isEmpty()){
             System.out.println("No has creado ningun chatbot");
         } else {
@@ -557,7 +555,7 @@ public class Main_21538935_ArcePalacios {
      */
     public static void printFlujosCreados(List<Flow_21538935_ArcePalacios> flujosMain){
         int i = 0;
-        System.out.println("//// Flujos que has creado ////");
+        System.out.println("/--- Flujos que has creado ---////");
         if(flujosMain.isEmpty()){
             System.out.println("No has creado ningun flujo");
         } else {
@@ -590,7 +588,7 @@ public class Main_21538935_ArcePalacios {
      */
     public static void printMainMenu(){
         System.out.println("------------Menu principal-------------");
-        System.out.println("0) Terminar ejecución del programa.");
+        System.out.println("0) Terminar la ejecución del programa.");
     }
 
     /**
@@ -649,5 +647,4 @@ public class Main_21538935_ArcePalacios {
         System.out.print("6) Salir.\n");
         System.out.print("\nEnter your choice: ");
     }
-
 }
