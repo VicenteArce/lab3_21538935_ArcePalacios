@@ -572,7 +572,7 @@ public class Main_21538935_ArcePalacios {
      */
     public static void printOpcionesCreadas(List<Option_21538935_ArcePalacios> opcionesMain){
         int i = 0;
-        System.out.println("//// Opciones que has creado ////");
+        System.out.println("/--- Opciones que has creado ---/");
         if(opcionesMain.isEmpty()){
             System.out.println("No has creado ninguna opcion");
         } else {
@@ -599,7 +599,7 @@ public class Main_21538935_ArcePalacios {
         System.out.print("1) Registrar usuario.\n");
         System.out.print("2) Loguear usuario.\n");
         System.out.print("3) Salir.\n");
-        System.out.print("\nEnter your choice: ");
+        System.out.print("\nIngrese su opción: ");
     }
 
     /**
@@ -610,7 +610,7 @@ public class Main_21538935_ArcePalacios {
         System.out.print("1) Registrar Usuario comun.\n");
         System.out.print("2) Registrar Usuario administrador.\n");
         System.out.print("3) Volver.\n");
-        System.out.print("\nEnter your choice: ");
+        System.out.print("\nIngrese su opción: ");
     }
 
     /**
@@ -631,7 +631,7 @@ public class Main_21538935_ArcePalacios {
         System.out.print("11) Realizar una simulación con el sistema [systemSimulate].\n");
         System.out.print("12) Visualizar el sistema.\n");
         System.out.print("13) Salir.\n");
-        System.out.print("\nEnter your choice: ");
+        System.out.print("\nIngrese su opción: ");
     }
 
     /**
@@ -645,6 +645,6 @@ public class Main_21538935_ArcePalacios {
         System.out.print("4) Realizar una simulación con el sistema [systemSimulate].\n");
         System.out.print("5) Visualizar el sistema\n");
         System.out.print("6) Salir.\n");
-        System.out.print("\nEnter your choice: ");
+        System.out.print("\nIngrese su opción: ");
     }
 }
