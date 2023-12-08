@@ -126,9 +126,9 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
             }
             if(rep){
                 logUser = user;
-                System.out.println("El usuario " + user +  " ha sido logueado.\n");
+                System.out.print("El usuario " + user +  " ha sido logueado.\n");
             }else{
-                System.out.println("El usuario " + user +  " no se encuentra registrado, registrese antes de loguearse.\n");
+                System.out.print("El usuario " + user +  " no se encuentra registrado, registrese antes de loguearse.\n");
             }
         }
     }
@@ -187,8 +187,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
                         actualFlowCodeLink = nextFlowCode;
                     } catch (Exception e){
                         int numMessage = Integer.parseInt(message); // Hago esto para que tire error en el caso de que no se pueda transformar a numero y salte al siguiente catch
-                        String formatedOptions = getUser(registerUsers, logUser).getHistorial() + "¡Error! Ingresa una opción corecta\n";
-                        getUser(registerUsers, logUser).setHistorial(formatedOptions);
+                        System.out.println("¡Error! Ingresa una opción corecta\n");
                     }
 
                 } catch (NumberFormatException e){
@@ -210,8 +209,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
                         actualChatbotCodeLink = nextChatbotCode;
                         actualFlowCodeLink = nextFlowCode;
                     }catch (Exception e1){
-                        String formatedOptions = getUser(registerUsers, logUser).getHistorial() + "¡Error! Ingresa una opción corecta\n";
-                        getUser(registerUsers, logUser).setHistorial(formatedOptions);
+                        System.out.println("¡Error! Ingresa una opción corecta\n");
                     }
                 }
 
