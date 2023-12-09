@@ -4,6 +4,10 @@ import CodigoFuente_21538935_ArcePalacios.Models_21538935_ArcePalacios.Option_21
 
 import java.util.List;
 
+/**
+ * Interface de Flow
+ * @author Vicente Arce
+ */
 public interface IFlow_21538935_ArcePalacios {
     /**
      * método que obtiene el id de un flujo

@@ -4,7 +4,9 @@ import CodigoFuente_21538935_ArcePalacios.Models_21538935_ArcePalacios.*;
 import CodigoFuente_21538935_ArcePalacios.UI_21538935_ArcePalacios.Menu_21538935_ArcePalacios;
 import java.util.*;
 
-
+/**
+ * Clase main, clase que sera ejecutada
+ */
 public class Main_21538935_ArcePalacios {
 
     /**

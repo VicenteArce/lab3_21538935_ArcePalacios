@@ -5,6 +5,10 @@ import CodigoFuente_21538935_ArcePalacios.Interfaces_21538935_ArcePalacios.IChat
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Clase chatbot, esta agrega flujos
+ * @author Vicente Arce
+ */
 public class Chatbot_21538935_ArcePalacios implements IChatbot_21538935_ArcePalacios {
 
     private int chatbotId;

@@ -2,6 +2,10 @@ package CodigoFuente_21538935_ArcePalacios.Interfaces_21538935_ArcePalacios;
 
 import java.util.List;
 
+/**
+ * Interface de Option
+ * @author Vicente Arce
+ */
 public interface IOption_21538935_ArcePalacios {
     /**
      * método que obtiene un código de una opción

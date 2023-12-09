@@ -1,5 +1,9 @@
 package CodigoFuente_21538935_ArcePalacios.Interfaces_21538935_ArcePalacios;
 
+/**
+ * Interface de usuario abstracto
+ * @author Vicente Arce
+ */
 public interface IAbstractUser_21538935_ArcePalacios {
     /**
      * método para obtener el username del usuario

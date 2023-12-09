@@ -5,6 +5,10 @@ import CodigoFuente_21538935_ArcePalacios.Interfaces_21538935_ArcePalacios.IFlow
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Clase Flow, esta agrega opciones
+ * @author Vicente Arce
+ */
 public class Flow_21538935_ArcePalacios implements IFlow_21538935_ArcePalacios {
 
     private int id;

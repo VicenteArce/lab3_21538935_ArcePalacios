@@ -4,6 +4,10 @@ import CodigoFuente_21538935_ArcePalacios.Interfaces_21538935_ArcePalacios.IOpti
 
 import java.util.List;
 
+/**
+ * Clase de Option
+ * @author Vicente Arce
+ */
 public class Option_21538935_ArcePalacios implements IOption_21538935_ArcePalacios {
     private int code;
     private String message;

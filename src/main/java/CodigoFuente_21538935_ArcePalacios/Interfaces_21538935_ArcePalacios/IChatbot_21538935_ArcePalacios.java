@@ -4,6 +4,10 @@ import CodigoFuente_21538935_ArcePalacios.Models_21538935_ArcePalacios.Flow_2153
 
 import java.util.List;
 
+/**
+ * Interface de chatbot
+ * @author Vicente Arce
+ */
 public interface IChatbot_21538935_ArcePalacios {
 
     /**

@@ -4,6 +4,10 @@ import CodigoFuente_21538935_ArcePalacios.Interfaces_21538935_ArcePalacios.ISyst
 
 import java.util.*;
 
+/**
+ * Clase de System, esta agrega usuarios y chatbots
+ * @author Vicente Arce
+ */
 public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalacios {
     private Date systemDateCreation;
     private String name;

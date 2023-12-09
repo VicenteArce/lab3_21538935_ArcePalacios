@@ -2,6 +2,10 @@ package CodigoFuente_21538935_ArcePalacios.Models_21538935_ArcePalacios;
 
 import CodigoFuente_21538935_ArcePalacios.Interfaces_21538935_ArcePalacios.IAbstractUser_21538935_ArcePalacios;
 
+/**
+ * Clase Abstract user
+ * @author Vicente Arce
+ */
 public abstract class AbstractUser_21538935_ArcePalacios implements IAbstractUser_21538935_ArcePalacios {
 
     protected String username;

@@ -4,12 +4,14 @@ import CodigoFuente_21538935_ArcePalacios.Models_21538935_ArcePalacios.*;
 
 import java.util.*;
 
+/**
+ * Clase menu, contiene toda la lógica de un menu
+ */
 public class Menu_21538935_ArcePalacios {
 
     private List<Option_21538935_ArcePalacios> opcionesMain = new ArrayList<>();
     private List<Flow_21538935_ArcePalacios> flujosMain = new ArrayList<>();
     private List<Chatbot_21538935_ArcePalacios> chatbotsMain = new ArrayList<>();
-
     private List<System_21538935_ArcePalacios> sistemasMain = new ArrayList<>();
     /**
      * Constructor de menú
