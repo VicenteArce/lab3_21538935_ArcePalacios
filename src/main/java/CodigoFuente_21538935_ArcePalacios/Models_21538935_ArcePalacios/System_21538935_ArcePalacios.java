@@ -21,6 +21,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
      * @param name nombre chatbot
      * @param initialChatbotCodeLink codigo de chatbot inicial del sistema
      * @param chatbots lista de chatbots del sistema
+     * @author Vicente Arce
      */
     public System_21538935_ArcePalacios(String name, int initialChatbotCodeLink ,List<Chatbot_21538935_ArcePalacios> chatbots) {
         this.systemDateCreation = new Date();
@@ -38,6 +39,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
     /**
      * método que obtiene el nombre de un sistema
      * @return name
+     * @author Vicente Arce
      */
     public String getName() {
         return name;
@@ -46,6 +48,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
     /**
      * método que obtiene la lista de registerUsers de un sistema
      * @return registerUsers
+     * @author Vicente Arce
      */
     public List<AbstractUser_21538935_ArcePalacios> getRegisterUsers() {
         return registerUsers;
@@ -54,6 +57,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
     /**
      * método que obtiene el usuario logueado de un sistema
      * @return logUser
+     * @author Vicente Arce
      */
     public String getLogUser() {
         return logUser;
@@ -62,6 +66,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
     /**
      * método que obtiene el código actual de flujo en el que esta el sistema
      * @return actualFlowCodeLink
+     * @author Vicente Arce
      */
     public int getActualFlowCodeLink() {
         return actualFlowCodeLink;
@@ -74,6 +79,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
     /**
      * método que añade un chatbot a un sistema si y solo si este no se encuentra previamente en el sistema
      * @param chatbot chatbot que se quiere añadir
+     * @author Vicente Arce
      */
     public void systemAddChatbot(Chatbot_21538935_ArcePalacios chatbot){
         boolean rep = false;
@@ -92,6 +98,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
     /**
      * método para registrar usuario a un sistema
      * @param user usuario a registrar
+     * @author Vicente Arce
      */
     public void systemAddUser(AbstractUser_21538935_ArcePalacios user){
         boolean rep = false;
@@ -112,6 +119,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
     /**
      * método para loguear un usuario en un sistema
      * @param user nombre del usuario a registrar
+     * @author Vicente Arce
      */
     public void systemLogin(String user){
         if(logUser != null){
@@ -137,6 +145,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
     // RF11
     /**
      * método que desloguea a un usuario de un sistema, este reinicia algunos atributos del sistema
+     * @author Vicente Arce
      */
     public void systemLogout(){
         logUser = null;
@@ -150,6 +159,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
     /**
      * método que permite interactuar con el sistema de chatbots
      * @param message mensaje del usuario
+     * @author Vicente Arce
      */
     public void systemTalk(String message){
         // Si se cumple, entonces el usuario aun no ha iniciado una conversación con el sistema.
@@ -224,6 +234,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
      * método para recuperar el historial de un usuario especifico según su username
      * @param username nombre del usuario
      * @return string (historial del usuario)
+     * @author Vicente Arce
      */
     public String systemSynthesis(String username){
         AbstractUser_21538935_ArcePalacios user = recuperarUserPorName(username);
@@ -242,6 +253,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
      * @param maxInteractions numero maximo de interacciones
      * @param seed numero que será la semilla para la simulación
      * @param system sistema al cual se le hará la simulación
+     * @author Vicente Arce
      */
     public void systemSimulate(int maxInteractions, long seed, System_21538935_ArcePalacios system){
         Random randomSeed = new Random(seed);
@@ -270,6 +282,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
      * método que devuelve una lista de chatbots filtrados en base a su id
      * @param chatbots lista de chatbots
      * @return lista de chatbots filtrados por id
+     * @author Vicente Arce
      */
     public List<Chatbot_21538935_ArcePalacios> cleanChatbotsById(List<Chatbot_21538935_ArcePalacios> chatbots) {
         List<Chatbot_21538935_ArcePalacios> chatbotsOut = new ArrayList<>();
@@ -296,6 +309,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
      * @param opciones lista de opciones
      * @param numMessage codigo de la opcion que se quiere elegir
      * @return opcion
+     * @author Vicente Arce
      */
     public Option_21538935_ArcePalacios recuperarOpcionPorCode (List<Option_21538935_ArcePalacios> opciones, int numMessage){
         for(Option_21538935_ArcePalacios opcion: opciones){
@@ -311,6 +325,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
      * @param opciones lista de opciones
      * @param message keyword de la opcion que se quiere elegir
      * @return opcion
+     * @author Vicente Arce
      */
     public Option_21538935_ArcePalacios recuperarOpcionPorKeyword(List<Option_21538935_ArcePalacios> opciones, String message){
         for(Option_21538935_ArcePalacios opcion: opciones){
@@ -326,6 +341,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
      * @param chatbots lista de chatbots
      * @param numero id de un chatbot
      * @return chatbot
+     * @author Vicente Arce
      */
     public Chatbot_21538935_ArcePalacios searchChatbotById(List<Chatbot_21538935_ArcePalacios> chatbots, int numero){
         for(Chatbot_21538935_ArcePalacios chatbot: chatbots){
@@ -341,6 +357,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
      * @param flows lista de flujos
      * @param numero id de un flujo
      * @return flow
+     * @author Vicente Arce
      */
     public Flow_21538935_ArcePalacios searchFlowById(List<Flow_21538935_ArcePalacios> flows, int numero){
         for(Flow_21538935_ArcePalacios flow: flows){
@@ -355,6 +372,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
      * método para formatear los mensajes de las opciones de un flujo
      * @param flow flujo
      * @return formatMessages
+     * @author Vicente Arce
      */
     public String formatOptionMessages(Flow_21538935_ArcePalacios flow){
         String formatMessages = "\n";
@@ -370,6 +388,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
      * @param users lista de usuarios
      * @param logUser username
      * @return usuario que tiene como username logUser
+     * @author Vicente Arce
      */
     public AbstractUser_21538935_ArcePalacios getUser(List<AbstractUser_21538935_ArcePalacios> users, String logUser){
         for(AbstractUser_21538935_ArcePalacios user: users){
@@ -385,6 +404,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
      * Método para obtener un usuario según su username
      * @param username nombre del usuario
      * @return userAux
+     * @author Vicente Arce
      */
     public AbstractUser_21538935_ArcePalacios recuperarUserPorName(String username){
         AbstractUser_21538935_ArcePalacios user;
@@ -402,6 +422,7 @@ public class System_21538935_ArcePalacios implements ISystem_21538935_ArcePalaci
     /**
      * método que formatea un sistema como un string
      * @return string
+     * @author Vicente Arce
      */
     @Override
     public String toString() {

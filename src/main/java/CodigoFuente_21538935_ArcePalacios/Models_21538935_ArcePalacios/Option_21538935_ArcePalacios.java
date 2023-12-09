@@ -20,6 +20,7 @@ public class Option_21538935_ArcePalacios implements IOption_21538935_ArcePalaci
      * @param chatbotCodeLink código del chatbot al que se le asocia la opción
      * @param initialFlowCodeLink código del flow al que se le asocia la opción
      * @param keywords lista de palabras claves
+     * @author Vicente Arce
      */
     public Option_21538935_ArcePalacios(int code, String message, int chatbotCodeLink, int initialFlowCodeLink, List<String> keywords) {
         this.code = code;
@@ -33,6 +34,7 @@ public class Option_21538935_ArcePalacios implements IOption_21538935_ArcePalaci
     /**
      * método que obtiene el código de una opción
      * @return code
+     * @author Vicente Arce
      */
     public int getCode() {
         return code;
@@ -41,6 +43,7 @@ public class Option_21538935_ArcePalacios implements IOption_21538935_ArcePalaci
     /**
      * método que obtiene el mensaje de una opción
      * @return message
+     * @author Vicente Arce
      */
     public String getMessage() {
         return message;
@@ -49,6 +52,7 @@ public class Option_21538935_ArcePalacios implements IOption_21538935_ArcePalaci
     /**
      * método que obtiene el chatbotCodeLink de una opción
      * @return chatbotCodeLink
+     * @author Vicente Arce
      */
     public int getChatbotCodeLink() {
         return chatbotCodeLink;
@@ -57,6 +61,7 @@ public class Option_21538935_ArcePalacios implements IOption_21538935_ArcePalaci
     /**
      * método que obtiene el initialFlowCodeLink de una opción
      * @return initialFlowCodeLink
+     * @author Vicente Arce
      */
     public int getInitialFlowCodeLink() {
         return initialFlowCodeLink;
@@ -65,6 +70,7 @@ public class Option_21538935_ArcePalacios implements IOption_21538935_ArcePalaci
     /**
      * método que obtiene la lista de keywords de una opción
      * @return keywords
+     * @author Vicente Arce
      */
     public List<String> getKeywords() {
         return keywords;
@@ -73,6 +79,7 @@ public class Option_21538935_ArcePalacios implements IOption_21538935_ArcePalaci
     /**
      * método que setea una lista de keywords en una opción
      * @param keywords lista de palabras claves
+     * @author Vicente Arce
      */
     public void setKeywords(List<String> keywords) {
         this.keywords = keywords;
@@ -82,6 +89,7 @@ public class Option_21538935_ArcePalacios implements IOption_21538935_ArcePalaci
     /**
      * método que formatea como un string una opción
      * @return string
+     * @author Vicente Arce
      */
     @Override
     public String toString() {

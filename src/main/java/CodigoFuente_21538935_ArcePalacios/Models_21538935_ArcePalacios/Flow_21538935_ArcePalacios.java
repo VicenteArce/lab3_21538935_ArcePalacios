@@ -17,6 +17,7 @@ public class Flow_21538935_ArcePalacios implements IFlow_21538935_ArcePalacios {
      * @param id id de un flujo
      * @param nameMsg mensaje de un flujo
      * @param options lista de opciones de un flujo
+     * @author Vicente Arce
      */
     public Flow_21538935_ArcePalacios(int id, String nameMsg, List<Option_21538935_ArcePalacios> options) {
         this.id = id;
@@ -29,6 +30,7 @@ public class Flow_21538935_ArcePalacios implements IFlow_21538935_ArcePalacios {
     /**
      * método que obtiene el id de un flujo
      * @return id
+     * @author Vicente Arce
      */
     public int getId() {
         return id;
@@ -37,6 +39,7 @@ public class Flow_21538935_ArcePalacios implements IFlow_21538935_ArcePalacios {
     /**
      * método que obtiene el mensaje de un flujo
      * @return nameMsg
+     * @author Vicente Arce
      */
     public String getNameMsg() {
         return nameMsg;
@@ -45,6 +48,7 @@ public class Flow_21538935_ArcePalacios implements IFlow_21538935_ArcePalacios {
     /**
      * método que obtiene la lista de opciones de un flujo
      * @return options
+     * @author Vicente Arce
      */
     public List<Option_21538935_ArcePalacios> getOptions() {
         return options;
@@ -56,6 +60,7 @@ public class Flow_21538935_ArcePalacios implements IFlow_21538935_ArcePalacios {
     /**
      * método que permite añadir una opcion a un flujo verficando que la opción no se repita
      * @param option opcion a añadir a un flujo
+     * @author Vicente Arce
      */
     public void flowAddOption(Option_21538935_ArcePalacios option){
         boolean rep = false;
@@ -75,6 +80,7 @@ public class Flow_21538935_ArcePalacios implements IFlow_21538935_ArcePalacios {
      * método que devuelve una lista de opciones filtradas en base a su codigo
      * @param options lista de opciones
      * @return optionsOut es una lista de opciones, cuyas opciones fueron  filtradas para que estas no se repitan
+     * @author Vicente Arce
      */
     public List<Option_21538935_ArcePalacios> cleanOptionsByCode(List<Option_21538935_ArcePalacios> options) {
         List<Option_21538935_ArcePalacios> optionsOut = new ArrayList<>();
@@ -102,6 +108,7 @@ public class Flow_21538935_ArcePalacios implements IFlow_21538935_ArcePalacios {
     /**
      * método que formatea un flujo como un string
      * @return flujo formateado como string
+     * @author Vicente Arce
      */
     @Override
     public String toString() {

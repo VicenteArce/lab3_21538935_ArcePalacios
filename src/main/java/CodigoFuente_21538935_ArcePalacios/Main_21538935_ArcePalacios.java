@@ -6,6 +6,12 @@ import java.util.*;
 
 
 public class Main_21538935_ArcePalacios {
+
+    /**
+     * método main
+     * @param args args
+     * @author Vicente Arce
+     */
     public static void main(String[] args) {
         // Cargando sistema de pruebas
         System_21538935_ArcePalacios s1 = cargarSistemaInicial();
@@ -15,6 +21,11 @@ public class Main_21538935_ArcePalacios {
         menu.principalMenu(s1);
     }
 
+    /**
+     * método encargado de inicializar el sistema pedido
+     * @return sistemaInicial
+     * @author Vicente Arce
+     */
     public static System_21538935_ArcePalacios cargarSistemaInicial(){
         // Opciones Chatbot 0
         Option_21538935_ArcePalacios op1 = new Option_21538935_ArcePalacios(1, "1) Peliculas", 1, 1, Arrays.asList("Pelicula", "Peliculas", "Movies"));

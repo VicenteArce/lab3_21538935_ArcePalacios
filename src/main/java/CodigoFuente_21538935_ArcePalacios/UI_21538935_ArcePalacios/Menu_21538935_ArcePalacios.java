@@ -20,6 +20,7 @@ public class Menu_21538935_ArcePalacios {
     /**
      * método que sigue toda la logica de un menú, se encarga de regoger el sistema ya creado en el Main
      * @param s1 sistema cargado en Main
+     * @author Vicente Arce
      */
     public void principalMenu(System_21538935_ArcePalacios s1){
         sistemasMain.add(s1);
@@ -48,6 +49,7 @@ public class Menu_21538935_ArcePalacios {
     /**
      * método que tiene toda la lógica del primer menu, se muestran opciones como el registrar y loguear
      * @param s1 sistema con el cual se esta interactuando
+     * @author Vicente Arce
      */
     public void firstMenu(System_21538935_ArcePalacios s1){
         int FIRST_MENU_EXIT_OPTION = 3;
@@ -97,6 +99,7 @@ public class Menu_21538935_ArcePalacios {
     /**
      * método que maneja la logica para poder registrar un usuario como admin o como usuario comun
      * @param s1 sistema con el cual se esta interactuando
+     * @author Vicente Arce
      */
     public void registerMenu(System_21538935_ArcePalacios s1){
         int REGISTER_MENU_EXIT_OPTION = 3;
@@ -139,6 +142,7 @@ public class Menu_21538935_ArcePalacios {
     /**
      * método que maneja la lógica de las funcionalidades que realiza el usuario administrador
      * @param s1 sistema con el cual se esta interactuando
+     * @author Vicente Arce
      */
     public void adminUserMenu(System_21538935_ArcePalacios s1){
 
@@ -432,6 +436,7 @@ public class Menu_21538935_ArcePalacios {
     /**
      * método que maneja la lógica de las funcionalidades que realiza el usuario comun
      * @param s1 sistema con el cual se esta interactuando
+     * @author Vicente Arce
      */
     public void comunUserMenu(System_21538935_ArcePalacios s1){
         int COMUN_MENU_EXIT_OPTION = 6;
@@ -510,6 +515,7 @@ public class Menu_21538935_ArcePalacios {
 
     /**
      * método que printea las opciones del menu principal
+     * @author Vicente Arce
      */
     public void printPrincipalMenu(){
         System.out.println("------------Menu principal-------------");
@@ -518,6 +524,7 @@ public class Menu_21538935_ArcePalacios {
 
     /**
      * método que printea las opciones del primer menu
+     * @author Vicente Arce
      */
     public void printFirstMenu() {
         System.out.println("#-----------Main Menu-----------#");
@@ -529,6 +536,7 @@ public class Menu_21538935_ArcePalacios {
 
     /**
      * método que printea las opciones del menu para registrarse
+     * @author Vicente Arce
      */
     public void printRegisterMenu() {
         System.out.println("#-----------Registro-----------#");
@@ -540,6 +548,7 @@ public class Menu_21538935_ArcePalacios {
 
     /**
      * método que printea las opciones del menu del usuario administrador
+     * @author Vicente Arce
      */
     public void printAdminUserMenu() {
         System.out.println("#-----------Usuario Administrador-----------#");
@@ -561,6 +570,7 @@ public class Menu_21538935_ArcePalacios {
 
     /**
      * método que printea las opciones del menu del usuario comun
+     * @author Vicente Arce
      */
     public void printComunUserMenu() {
         System.out.println("#-----------Usuario Comun-----------#");
@@ -577,6 +587,7 @@ public class Menu_21538935_ArcePalacios {
     /**
      * método que printea las opciones creadas por los usuarios administradores
      * @param opcionesMain lista de opciones
+     * @author Vicente Arce
      */
     public void printOpcionesCreadas(List<Option_21538935_ArcePalacios> opcionesMain){
         int i = 0;
@@ -594,6 +605,7 @@ public class Menu_21538935_ArcePalacios {
     /**
      * método que printea las flujos creadas por los usuarios administradores
      * @param flujosMain lista de flujos
+     * @author Vicente Arce
      */
     public void printFlujosCreados(List<Flow_21538935_ArcePalacios> flujosMain){
         int i = 0;
@@ -611,6 +623,7 @@ public class Menu_21538935_ArcePalacios {
     /**
      * método que printea los chatbots creados por los usuarios administradores
      * @param chatbotsMain lista de chatbots
+     * @author Vicente Arce
      */
     public void printChatbotsCreados(List<Chatbot_21538935_ArcePalacios> chatbotsMain){
         int i = 0;
@@ -628,6 +641,7 @@ public class Menu_21538935_ArcePalacios {
     /**
      * método que printea el nombre de los sistemas creado por los usuarios administradores
      * @param sistemasMain lista de sistemas
+     * @author Vicente Arce
      */
     public static void printSistemasCreadosV1(List<System_21538935_ArcePalacios> sistemasMain) {
         int i = 1;

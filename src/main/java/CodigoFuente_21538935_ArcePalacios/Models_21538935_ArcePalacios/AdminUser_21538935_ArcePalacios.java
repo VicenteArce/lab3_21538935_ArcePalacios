@@ -4,6 +4,7 @@ public class AdminUser_21538935_ArcePalacios extends AbstractUser_21538935_ArceP
     /**
      * Constructor de usuario administrador (setea true en isAdmin)
      * @param username nombre del usuario
+     * @author Vicente Arce
      */
     public AdminUser_21538935_ArcePalacios(String username) {
         super(username, true);
