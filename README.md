@@ -11,7 +11,8 @@ Primeramente clone el presente repositorio, esto puede hacerlo copiando y pegand
 git clone https://github.com/VicenteArce/lab3_21538935_ArcePalacios
 ```
 Luego abra una terminal/consola en el directorio principal del proyecto y ejecute uno de los siguientes comandos dependiendo de su sistema operativo:
-* gradlew run (en GNU/Linux)
-* gradlew.bat run (en Windows)
+* para compilar: ./gradlew build | para ejecutar: ./gradlew run (en GNU/Linux)
+* para compilar: gradlew.bat build | para ejecutar: gradlew.bat run (en Windows)
 
 ## Prerequisitos
+Este proyecto fue relizado en JDK 11 usando gradle en la version 8.2.
