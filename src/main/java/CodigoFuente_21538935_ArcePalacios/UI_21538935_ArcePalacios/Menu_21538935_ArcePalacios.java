@@ -466,7 +466,7 @@ public class Menu_21538935_ArcePalacios {
                         s1.systemTalk(mensajeSystemTalk);
                     }else{
                         System.out.println(s1.systemSynthesis(s1.getLogUser()));
-                        System.out.println("\nINTRODUZCA UN MENSAJE (opción que quiere elegir): ");
+                        System.out.println("INTRODUZCA UN MENSAJE (opción que quiere elegir): ");
                         String mensajeSystemTalk = input.nextLine();
                         s1.systemTalk(mensajeSystemTalk);
                     }
