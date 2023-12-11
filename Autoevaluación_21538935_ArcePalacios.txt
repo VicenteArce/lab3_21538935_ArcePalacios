@@ -1,0 +1,30 @@
+Requisisto No Funcional---------------------------Autoevaluación
+
+Lenguaje y herramientas de trabajo			1
+Interacciones con el programa				1
+Uso del paradigma					1
+Prerrequisitos						1
+Documentación JavaDoc					1
+Organización del código					1
+Diagrama de análisis					1
+Diagrama de diseño					1
+Uso de Git						1
+
+Requisito Funcional-------------------------------Autoevaluación
+
+1)Clases y estructuras					1
+2)Menu							1
+1)Option						1
+2)Flow							1
+3)flowAddOption						1
+4)Chatbot						1
+5)chatbotAddFlow					1
+6)Usuario						1
+7)System						1
+8)systemAddChatbot					1
+9)systemAddUser						1
+10)systemLogin						1
+11)systemLogout						1
+12)systemTalk						1
+13)systemSynthesis					1
+14)systemSimulate					1

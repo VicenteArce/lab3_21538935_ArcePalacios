@@ -245,6 +245,7 @@ public class Menu_21538935_ArcePalacios {
                             input.nextLine();
                             Option_21538935_ArcePalacios optionCase3 = opcionesMain.get(index2);
                             flowCase3.flowAddOption(optionCase3);
+                            System.out.println("\nSi el codigo de su opcion no se repetia, esta ha sido agregada al flujo con exito");
                             flujosMain.remove(index);
                             flujosMain.add(flowCase3);
 
@@ -312,6 +313,7 @@ public class Menu_21538935_ArcePalacios {
                             input.nextLine();
                             Flow_21538935_ArcePalacios flowCase5 = flujosMain.get(index2);
                             chatbotCase5.chatbotAddFlow(flowCase5);
+                            System.out.println("\nSi el id de su flujo no se repetia, esta ha sido agregada al chatbot con exito");
                             flujosMain.remove(index);
                             flujosMain.add(flowCase5);
 
