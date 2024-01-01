@@ -16,3 +16,9 @@ Luego abra una terminal/consola en el directorio principal del proyecto y ejecut
 
 ## Prerequisitos
 Este proyecto fue relizado en JDK 11 usando gradle en la version 8.2.
+
+## Nota obtenida
+* **Requisitos funcionales:** 6.0
+* **Requisitos no funcionales:** 7.0
+* **Informe:** 6.9
+* **Nota Final:** 6.3
